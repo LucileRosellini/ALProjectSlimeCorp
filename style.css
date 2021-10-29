@@ -1,11 +1,35 @@
-                body {
-                    background-color: #FBFCFC;
-                }
-                
-                main {
-                    background-color: #485936;
-                }
-                
-                .imgCarrousel {
-                    height: 10vh!important;
-                }
+            .bg-firstColor {
+                background-color: #485936;
+            }
+            
+            .bg-secondColor {
+                background-color: #93a368;
+            }
+            
+            .bg-thirdColor {
+                background-color: #cadbb7;
+            }
+            
+            .bg-fourthColor {
+                background-color: #9dcdbf;
+            }
+            
+            .bg-fifthColor {
+                background-color: #FCFBFC;
+            }
+            
+            header {
+                height: 15vh;
+            }
+            
+            footer {
+                height: 25vh;
+            }
+            
+            .footerTextSize {
+                font-size: 1em;
+            }
+            
+            main {
+                height: 50vh;
+            }

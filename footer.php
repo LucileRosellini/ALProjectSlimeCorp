@@ -1,20 +1,31 @@
 </main>
 
-<footer class="jumbotron row">
-    <div class="form-group display-block col-4">
+<footer class="jumbotron row m-0 p-0 fixed-bottom bg-fourthColor">
+
+    <div class="form-group display-block col-3 align-self-center">
       <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email">
+      <small id="emailHelp" class="form-text text-muted">Nous ne divulgons pas les e-mails !</small>
     </div>
 
-    <div class="display-3 block col-4">
-        <h1 >Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <div class="block col-6 row align-self-center">
+        <div class="col-6 align-self-center footerTextSize p-4">
+            <h6>Adresse</h6>
+            <p class="lead footerTextSize">12 Rue du mail</p>
+            <p class="lead footerTextSize">56100 Lorient</p>
+            <hr>    
+            <h6 >Téléphone</h6>
+            <p class="lead">02 92 54 18 67</p>
+        </div>
+        <div class="col-6 align-self-center">
+            <img src="https://picsum.photos/250/125" alt="carte interactive située sur l'adresse">
+        </div>
     </div>
 
-    <div class="my-4 col-4">
+    <div class="block my-4 col-3 align-self-center">
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
     </div>
+
 </footer>
 
 
