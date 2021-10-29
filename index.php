@@ -25,13 +25,13 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <img class="d-block img-fluid w-50 imgCarrousel" src="https://picsum.photos/800/450" data-src="holder.js/900x400?theme=social" alt="900x400" data-holder-rendered="true">
+      <img class="d-block img-fluid w-50" src="https://picsum.photos/800/450" data-src="holder.js/900x400?theme=social" alt="900x400" data-holder-rendered="true">
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid w-50 imgCarrousel" src="https://picsum.photos/800/450" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true" >
+      <img class="d-block img-fluid w-50" src="https://picsum.photos/800/450" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true" >
     </div>
     <div class="carousel-item">
-      <img class="d-block img-fluid w-50 imgCarrousel" src="https://picsum.photos/800/450" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true">
+      <img class="d-block img-fluid w-50" src="https://picsum.photos/800/450" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
