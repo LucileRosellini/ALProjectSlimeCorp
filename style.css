@@ -1,8 +1,12 @@
-body {
-    background-color:#FBFCFC;
-}
-
-main {
-    background-color:#485936;
-    
-}
+                body {
+                    background-color: #FBFCFC;
+                }
+                
+                main {
+                    background-color: #485936;
+                }
+                
+                .imgCarrousel {
+                    width: auto;
+                    height: 60vh!important;
+                }

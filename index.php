@@ -17,19 +17,33 @@
 
 
 
-        <h1 id="titre" class="text-center py-3 text-success">SLIME CORP</h1>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
+      <h1 id="titre" class="text-center py-3 text-success">SLIME CORP</h1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-        <img src="..." class="d-block w-100" alt="...">
+      <img class="d-block img-fluid imgCarrousel" src="img\enfant-joue-avec-slime.jpg" data-src="holder.js/900x400?theme=social" alt="900x400" data-holder-rendered="true">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img class="d-block img-fluid imgCarrousel" src="img\kit-complet-n11-slime-galaxy.jpg" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true" >
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img class="d-block img-fluid imgCarrousel" src="img\Slime.jpg" data-src="holder.js/900x400?theme=industrial" alt="900x400" data-holder-rendered="true">
     </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 </div>
 
     </main>
