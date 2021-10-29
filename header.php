@@ -14,12 +14,12 @@
 
 
 <header class="bg-firstColor">
-    <div class="row justify-content-center ">
+    <div class="row justify-content-center">
         <div>
             <img class="display-block m-2 p-2" src="img\logo.png" alt="">
         </div>
-        <div>
-            <h1 id="titre" class="text-center py-3 text-success justify-content-center">SLIME CORP</h1>
+        <div class="d-flex">
+            <h1 id="titre" class="text-center py-3 text-success m-auto">SLIME CORP</h1>
         </div>
     </div>
 
