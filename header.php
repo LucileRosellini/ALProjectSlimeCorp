@@ -14,16 +14,16 @@
 
 
 <header class="bg-firstColor">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center no-gutters">
         <div>
-            <img class="display-block m-2 p-2" src="img\logo.png" alt="">
+            <img class="display-block p-2" src="img\logo.png" alt="">
         </div>
         <div class="d-flex">
-            <h1 id="titre" class="text-center py-3 text-success m-auto">SLIME CORP</h1>
+            <h1 id="titre" class="text-center py-3 m-auto fluo">SLIME CORP</h1>
         </div>
     </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-secondColor">
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondColor no-gutters">
   <a class="navbar-brand" href="#">Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

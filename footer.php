@@ -1,18 +1,18 @@
 </main>
 
-<footer class="jumbotron row m-0 p-0 fixed-bottom bg-fourthColor">
+<footer class="jumbotron row m-0 p-0 bg-fourthColor no-gutters">
 
     <div class="form-group display-block col-3 align-self-center">
-      <label for="exampleInputEmail1">Email address</label>
+      <label for="exampleInputEmail1">Email</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email">
       <small id="emailHelp" class="form-text text-muted">Nous ne divulgons pas les e-mails !</small>
     </div>
 
     <div class="block col-6 row align-self-center">
-        <div class="col-6 align-self-center footerTextSize p-4">
+        <div class="col-6 align-self-center footerText p-4">
             <h6>Adresse</h6>
-            <p class="lead footerTextSize">12 Rue du mail</p>
-            <p class="lead footerTextSize">56100 Lorient</p>
+            <p class="lead footerText">12 Rue du mail</p>
+            <p class="lead footerText">56100 Lorient</p>
             <hr>    
             <h6 >Téléphone</h6>
             <p class="lead">02 92 54 18 67</p>
