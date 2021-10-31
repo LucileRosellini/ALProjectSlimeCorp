@@ -26,8 +26,31 @@
     height: 10vh;
 }
 
-footer {
+@font-face {
+    font-family: 'Halloween_Morning';
+    src: url('img\Halloween_Morning.ttf');
+}
+
+.titleFont {
+    font-family: 'Halloween_Morning'
+}
+
+.customerImg {
+    width: 10vw;
+    height: auto;
+}
+
+.icone {
+    width: 50px;
+    height: auto;
+}
+
+.footer {
     height: 18vh;
+}
+
+main {
+    min-height: 64vh;
 }
 
 .carousel-inner {
