@@ -19,6 +19,7 @@
         </div>
         <div class="col-6 align-self-center">
             <img src="https://picsum.photos/250/125" alt="carte interactive située sur l'adresse">
+            <div class="map" id="mymap"></div>
         </div>
     </div>
 
@@ -29,10 +30,10 @@
                     <img class="icone" src="img/icoTwitter.png" alt="logo twitter clicable">
                  </a>
                  <a href="https://www.facebook.com/">
-                    <img class="icone" src="img/icoFacebook.png" alt="logo facebook clicable">
+                    <img class="icone" src="img\icoFacebook2.png" alt="logo facebook clicable">
                  </a>
                  <a href="https://www.instagram.com/">
-                    <img class="icone" src="img\icoInstagram.png" alt="logo instagram clicable">
+                    <img class="icone" src="img\icoInstagram2.png" alt="logo instagram clicable">
                  </a>
                  <a href="https://www.tiktok.com/">
                     <img class="icone" src="img\icons8-tic-tac-50.png" alt="logo tiktok clicable">
