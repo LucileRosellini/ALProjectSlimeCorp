@@ -2,13 +2,13 @@
 
 <footer class="jumbotron row m-0 p-0 bg-fourthColor no-gutters">
 
-    <div class="form-group display-block col-3 align-self-center">
+    <div class="form-group display-block col-3 align-self-center px-5">
       <label for="exampleInputEmail1">Email</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email">
       <small id="emailHelp" class="form-text text-muted">Nous ne divulgons pas les e-mails !</small>
     </div>
 
-    <div class="block col-6 row align-self-center">
+    <div class="block col-6 row align-self-center px-5">
         <div class="col-6 align-self-center footerText p-4">
             <h6>Adresse</h6>
             <p class="lead footerText">12 Rue du mail</p>
@@ -22,8 +22,24 @@
         </div>
     </div>
 
-    <div class="block my-4 col-3 align-self-center">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <div class="block my-4  col-3 align-self-center">
+    <ul class="flex fullCenter">
+              <li>
+                 <a href="https://twitter.com">
+                    <img class="icone" src="img/icoTwitter.png" alt="logo twitter clicable">
+                 </a>
+                 <a href="https://www.facebook.com/">
+                    <img class="icone" src="img/icoFacebook.png" alt="logo facebook clicable">
+                 </a>
+                 <a href="https://www.instagram.com/">
+                    <img class="icone" src="img\icoInstagram.png" alt="logo instagram clicable">
+                 </a>
+                 <a href="https://www.tiktok.com/">
+                    <img class="icone" src="img\icons8-tic-tac-50.png" alt="logo tiktok clicable">
+                 </a>
+
+              </li>
+           </ul>
     </div>
 
 </footer>

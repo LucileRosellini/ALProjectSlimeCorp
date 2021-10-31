@@ -8,7 +8,8 @@
     <!-- CDN Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">    <title>SlimeCorp</title>
     <link rel="stylesheet" href="style.css">
-</head>
+ 
+  </head>
 
 <body>
 
@@ -19,12 +20,12 @@
             <img class="display-block p-2" src="img\logo.png" alt="">
         </div>
         <div class="d-flex">
-            <h1 id="titre" class="text-center py-3 m-auto fluo">SLIME CORP</h1>
+            <h1 id="titre" class="text-center py-3 m-auto fluo titleFont">SLIME CORP</h1>
         </div>
     </div>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-secondColor no-gutters">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">Menu</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -32,28 +33,18 @@
   <div class="collapse navbar-collapse" id="navbarColor01">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home
+        <a class="nav-link" href="index.php">Acceuil
           <span class="sr-only">(current)</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="services.php">Services</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link" href="projects.php">Projets</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Separated link</a>
-        </div>
+        <a class="nav-link" href="customers.php">Nos clients</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
@@ -64,4 +55,4 @@
 </nav>
 </header>
 
-<main>
+<main class="bg-thirdColor">
