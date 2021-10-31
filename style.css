@@ -26,10 +26,11 @@
     height: 10vh;
 }
 
-@font-face {
+
+/* @font-face {
     font-family: 'Halloween_Morning';
     src: url('img\Halloween_Morning.ttf');
-}
+} */
 
 .titleFont {
     font-family: 'Halloween_Morning'
@@ -65,4 +66,11 @@ main {
 
 .carousel-item img {
     height: 100%;
+}
+
+#map {
+    /* la carte DOIT avoir une hauteur sinon elle n'apparaît pas */
+    height: 160px;
+    WIDTH: 280px;
+    padding: 5px;
 }
